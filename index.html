@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pesquisa Online</h1>
+    </header>
+    <section>
+        <form action="" method="get">
+
+            <!-- DADOS PESSOAIS -->
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="userName">Digite seu nome:</label>
+                <input type="text" name="userName" required>
+                <br>
+                <label for="userAge">Digite sua idade:</label>
+                <input type="number" name="userAge" min="12" max="100" required>
+                <br>
+                <label for="userBirthDate">Digite sua data de nascimento:</label>
+                <input type="date" name="userBirthDate">
+                <br>
+                <label for="userEmail">Digite seu e-mail:</label>
+                <input type="email" name="userEmail" required>
+                <br>
+                <label for="userPhone">Digite seu telefone:</label>
+                <input type="tel" name="userPhone" placeholder="DDD+número" pattern="[0-9]{11}">
+                <br>
+                <label for="userImage">Selecione sua foto:</label>
+                <input type="file" name="userImage" accept="image/*">
+                <br><br>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
