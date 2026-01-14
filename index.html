@@ -136,11 +136,11 @@
 
             <p>Como você avalia nosso site?</p>
 
-            <input id="userFeedbackOptimal" type="radio" name="userFeedback" value="otima">
+            <input id="userFeedbackOptimal" type="radio" name="userFeedback" value="otimo">
             <label for="userFeedbackOptimal">Otima</label>
             <br>
 
-            <input id="userFeedbackGood" type="radio" name="userFeedback" value="boa">
+            <input id="userFeedbackGood" type="radio" name="userFeedback" value="bom">
             <label for="userFeedbackGood">Boa</label>
             <br>
 
@@ -156,12 +156,17 @@
             <br>
             <textarea id="comments" name="userComments" rows="4" cols="50" placeholder="Escreva aqui..."></textarea>
             <br><br>
-
-
-
-
         </fieldset>
 
+        <fieldset>
+            <legend>Confirmações</legend>
+
+            <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
+            <label for="userLgpdTerm">Li e concordo com a política de privacidade</label><br>
+
+            <input type="checkbox" name="userResult" id="userGetResult" value="accepted" required>
+            <label for="userGetResult">Desejo receber o resultado por e-mail</label><br>
+        </fieldset>
 
         <button type="submit">Enviar</button>
         </form>
